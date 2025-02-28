@@ -7,7 +7,7 @@ const Calendar = ({ setSelectedDate, selectedDate }) => {
   useEffect(() => {
     const fetchData = async () => {
       let country = 'in';
-      let years = ['2022', '2023', '2024'];
+      let years = ['2024', '2025', '2026'];
       let promises = years.map((year) =>
         fetch(`https://api.api-ninjas.com/v1/holidays?country=${country}&year=${year}`, {
           method: 'GET',
