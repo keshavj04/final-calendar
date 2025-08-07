@@ -52,7 +52,7 @@ const ToDo = ({ selectedDate }) => {
           onChange={handleChange}
           placeholder="Enter the Task"
         />
-        <button className="submit-button" type="submit">Submit</button>
+        <button className="submit-button" type="submit">Submit Please</button>
       </form>
 
       {tasks.length > 0 && (
@@ -73,3 +73,4 @@ const ToDo = ({ selectedDate }) => {
 };
 
 export default ToDo;
+
